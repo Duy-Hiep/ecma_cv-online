@@ -51,6 +51,7 @@ export const AdminProjectsPage = () => {
             <th>STT</th>
             <th>TÊN DỰ ÁN</th>
             <th>MÔ TẢ</th>
+            <th>NGÀY HOÀN THÀNH</th>
             <th>HÌNH ẢNH</th>
             <th></th>
         </tr>
@@ -66,6 +67,8 @@ export const AdminProjectsPage = () => {
             <td>${index + 1}</td>
             <td>${project.name}</td>
             <td>${project.author}</td>
+            <td>${project.date}</td>
+            <td>${project.github}</td>
             <td><img src="${project.gallery}" class="w-[200px]"></td>
 
             <td width="150">
@@ -80,7 +83,10 @@ export const AdminProjectsPage = () => {
         </tbody>
         
     </table>
-        <a href="/admin/ProjectAdd" class="btn btn-danger px-4 py-3">Thêm</a>  
+    <div class="text-center">
+      <a href="/admin/ProjectAdd" class="btn btn-danger px-4 py-3 ">Thêm</a>  
+    </div>
+        
   </div>`;
     
 };

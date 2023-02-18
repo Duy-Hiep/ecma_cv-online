@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const instance =axios.create({
-    baseURL: " https://yc8w7q-8080.preview.csb.app/api",
+    baseURL: "https://yc8w7q-8080.preview.csb.app/api",
 });
 
 // Add a request interceptor

@@ -9,6 +9,8 @@ const AdminProjectAddPage = () => {
         const projectName = document.querySelector("#project-name");  
         const projectAuthor = document.querySelector("#project-author");  
         const projectImages = document.querySelector("#project-images");  
+        const projectDates = document.querySelector("#project-date");  
+        const projectGithub = document.querySelector("#project-gitHub");  
 
         form.addEventListener("submit", async (e) => {
 
@@ -20,6 +22,8 @@ const AdminProjectAddPage = () => {
                 
                     name: projectName.value,
                     author: projectAuthor.value,
+                    date: projectDates.value,
+                    github: projectGithub.value,
                     gallery: urls,
                 };
 
@@ -94,7 +98,17 @@ const AdminProjectAddPage = () => {
     <div class="form-group mb-3">
     <label for="">Ảnh sản phẩm</label>
     <input type="file" id="project-images" multiple class="form-control">
-  </div>
+    </div>
+
+    <div class="form-group mb-3">
+    <label for="">Ngày Hoàn Thiện</label>
+    <input type="date" id="project-date" multiple class="form-control">
+    </div>
+
+    <div class="form-group mb-3">
+    <label for="">Link Github</label>
+    <input type="text" id="project-gitHub" multiple class="form-control">
+    </div>
 
     <div class="form-group">
       <button class="btn btn-primary"> thêm sản phẩm</button>

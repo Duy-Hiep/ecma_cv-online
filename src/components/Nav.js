@@ -5,7 +5,7 @@ const Nav = () => {
         `
             
             <ul class="ds-social2 ">
-                ${menus.map(menu => `<a href="${menu.link}" class="text-decoration-none ml-2 text-[#000000e3] hover:text-[#F26464]">${menu.name}</a>`).join("")}  
+                ${menus.map(menu => `<a href="${menu.link}" data-navigo class="text-decoration-none ml-2 text-[#151515d4] font-bold hover:text-[#F26464]">${menu.name}</a>`).join("")}  
               </ul>
 
             

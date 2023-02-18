@@ -1,7 +1,8 @@
 const menus = [
-    { id: 1, name: "Home", link: "/" },
-    { id: 2, name: "About", link: "/About" },
-    { id: 3, name: "Projects", link: "/Projects" },
+    { id: 1, name: "Home", link: "#/" },
+    { id: 2, name: "About", link: "#/About" },
+    { id: 3, name: "Projects", link: "#/Projects" },
+    { id: 3, name: "Contact", link: "#/Contact" },
     
 ];
 

@@ -29,7 +29,8 @@ export const ProjectsPage = () => {
                      
                       <h3 class="ds-work-tilte">${Project.name}</h3>
                       <p>${Project.author}</p>
-                      <a href="https://github.com/Duy-Hiep" class="ds-button inline-block" target="_blank">Details</a>
+                      <span class="p-2 border rounded">${Project.date}</span> </br>
+                      <a href="${Project.github}" class="ds-button inline-block" target="_blank">Details</a>
                      
                      </section>
                  </div>

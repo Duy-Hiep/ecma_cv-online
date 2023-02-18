@@ -51,8 +51,13 @@ const HomePage = () => {
                 
               </li>
               
+              <li>
+                <div class="ds-button-sec text-center mt-4">
+                  <a href="#" class="ds-button">Download Resume</a>
+                </div>
+              </li>
             </ul>
-           
+
                 
             </section>
           </div>

@@ -53,10 +53,6 @@ const AboutPage = () => {
               </div>
             </div>
 
-            <div class="ds-button-sec text-center">
-                <a href="#" class="ds-button">Download Resume</a>
-            </div>
-
       
  
           </section>
