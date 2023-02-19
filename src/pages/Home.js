@@ -35,19 +35,19 @@ const HomePage = () => {
         
               </li>
               <li>
-                <strong class="border-2 p-1 rounded-md">Học Vấn: ${Project.hocVan}</strong>
+                <strong class="border-2 p-1 rounded-md hover:border-[#F26464]">Học Vấn: ${Project.hocVan}</strong>
         
               </li>
               <li>
-                <strong class="border-2 p-1 rounded-md">Điện Thoại: ${Project.number} </strong>
+                <strong class="border-2 p-1 rounded-md hover:border-[#F26464]">Điện Thoại: ${Project.number} </strong>
                 
               </li>
               <li>
-                <strong class="border-2 p-1 rounded-md">Email: ${Project.email} </strong>
+                <strong class="border-2 p-1 rounded-md hover:border-[#F26464]">Email: ${Project.email} </strong>
                 
               </li>
               <li>
-                <strong class="border-2 p-1 rounded-md">Địa chỉ: ${Project.address} </strong>
+                <strong class="border-2 p-1 rounded-md hover:border-[#F26464]">Địa chỉ: ${Project.address} </strong>
                 
               </li>
               

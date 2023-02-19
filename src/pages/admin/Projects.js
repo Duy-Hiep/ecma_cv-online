@@ -1,5 +1,5 @@
 // import { projects } from "../../data";
-import { deleteProject, getProjects, updateProject } from "../../api/project";
+import { deleteProject, getProjects } from "../../api/project";
 import { useEffect, useState } from "../../lib";
 import axios from "axios";
 
