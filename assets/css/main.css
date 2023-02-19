@@ -45,6 +45,7 @@ svg,img { max-width: 100%; height: auto; }
 .ds-social li{ margin-left: 12px; }
 .ds-social li:first-child{ margin-left: 0; }
 .ds-social li a{ border-radius: 100%; color: #FFF; width: 35px; height: 35px; background-color: #F26464; display:flex; justify-content: center; align-items: center; text-align: center; font-size: 16px; }
+.ds-social li .admin{ border-radius: 10%; color: #FFF; width: 55px; height: 35px; background-color: #F26464; display:flex; justify-content: center; align-items: center; text-align: center; font-size: 16px; text-decoration: none; font-weight: 600;}
 .ds-social li a:hover{ background-color: #000; color: #FFF; }
 
 .ds-social2{ list-style: none; display: flex; align-items: center; flex-wrap: wrap; }

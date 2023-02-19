@@ -5,17 +5,17 @@ import axios from "axios";
 import { getUser } from "../api/user";
 
 const HomePage = () => {
-    const [Project, setProject] = useState([]);
+    const [Home, setHome] = useState([]);
     useEffect(() => {
       getUser()
-      .then(Project => setProject(Project))
+      .then(Project => setHome(Project))
     },[])
   return /*html*/ `
     ${Header()}
     <div class="ds-banner ">
       <div class="container">
         <div class="row">
-        ${Project.map((Project) => {
+        ${Home.map((Project) => {
           return`
           <div class="col-12 col-sm-12 col-md-5 col-lg-5 col-xl-5 col-xxl-5 mt-4 ">
             <figure>
@@ -35,19 +35,19 @@ const HomePage = () => {
         
               </li>
               <li>
-                <strong>Học Vấn: ${Project.hocVan}</strong>
+                <strong class="border-2 p-1 rounded-md">Học Vấn: ${Project.hocVan}</strong>
         
               </li>
               <li>
-                <strong>Điện Thoại: ${Project.number} </strong>
+                <strong class="border-2 p-1 rounded-md">Điện Thoại: ${Project.number} </strong>
                 
               </li>
               <li>
-                <strong>Email: ${Project.email} </strong>
+                <strong class="border-2 p-1 rounded-md">Email: ${Project.email} </strong>
                 
               </li>
               <li>
-                <strong>Địa chỉ: ${Project.address} </strong>
+                <strong class="border-2 p-1 rounded-md">Địa chỉ: ${Project.address} </strong>
                 
               </li>
               
