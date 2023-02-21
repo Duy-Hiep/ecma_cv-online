@@ -29,7 +29,7 @@ export const ProjectsPage = () => {
                      
                       <h3 class="ds-work-tilte">${Project.name}</h3>
                       <p>${Project.author}</p>
-                      <span class="p-2 border rounded">${Project.date}</span> </br>
+                      <span class="p-2 border rounded" >${Project.date}</span> </br>
                       <a href="${Project.github}" class="ds-button inline-block" target="_blank">Details</a>
                      
                      </section>

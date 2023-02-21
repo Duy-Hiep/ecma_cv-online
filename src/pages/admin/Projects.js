@@ -52,6 +52,7 @@ export const AdminProjectsPage = () => {
             <th>TÊN DỰ ÁN</th>
             <th>MÔ TẢ</th>
             <th>NGÀY HOÀN THÀNH</th>
+            <th>Link Github</th>
             <th>HÌNH ẢNH</th>
             <th></th>
         </tr>

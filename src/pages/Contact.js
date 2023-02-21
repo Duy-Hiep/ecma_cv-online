@@ -18,7 +18,7 @@ const ContactPage = () => {
         ${Contact.map((Project) => {
             return `
             <h3>${Project.title}</h3>
-            Địa chỉ cụ thể: <a href="https://goo.gl/maps/EScG5uNZZz83d7tUA" target="_blank" class="border-2 p-1 rounded-xl no-underline">${Project.address}</a>
+            Địa chỉ cụ thể: <a href="https://goo.gl/maps/EScG5uNZZz83d7tUA" target="_blank" class="border-2 p-1 rounded-xl no-underline hover:border-[#F26464]">${Project.address}</a>
             `
         })}
             

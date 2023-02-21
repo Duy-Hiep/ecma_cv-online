@@ -21,7 +21,7 @@ const AdminProjectEditPage = ({ProjectId}) => {
         const projectName = document.querySelector("#project-name");  
         const projectAuthor = document.querySelector("#project-author");
         const projectDates = document.querySelector("#project-date");  
-        const projectGithub = document.querySelector("#project-gitHub");  
+        const projectGithub = document.querySelector("#project-gitHub");
 
         form.addEventListener("submit", async (e) => {
 
@@ -67,6 +67,7 @@ const AdminProjectEditPage = ({ProjectId}) => {
                 <label for="">Ngày Hoàn Thiện</label>
                 <input type="text" id="project-date" class="form-control"  value="${project.date}"/>
             </div>
+
             
             <div class="form-group mb-3">
                 <label for="">Link Github</label>

@@ -53,7 +53,7 @@ const HomePage = () => {
               
               <li>
                 <div class="ds-button-sec text-center mt-4">
-                  <a href="#" class="ds-button">Download Resume</a>
+                  <a href="https://drive.google.com/file/d/1-aUXRB1Aax_M-kNiM7rSSeaWE5YEdaL0/view" target="_blank" class="ds-button">Download Resume</a>
                 </div>
               </li>
             </ul>
