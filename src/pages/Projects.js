@@ -35,7 +35,7 @@ export const ProjectsPage = () => {
                      </section>
                  </div>
                  <div class="">
-                     <figure><img src="${Project.gallery}" class="w-full"></figure>
+                     <figure><img src="${Project.gallery}" class="w-full hover:scale-125"></figure>
                  </div>
                 </div>
                  `
