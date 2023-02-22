@@ -166,3 +166,23 @@ span.ds-department{ color: #373737; font-weight: 500; font-size: 18px; padding-b
 
 
 }
+
+@keyframes filling {
+	from{
+	  background-position: center 25%;
+	}
+	to {
+	  background-position: center 50%;
+	}
+  }
+  
+  .container-text {
+	
+	background-image:  url(https://images.hdqwalls.com/wallpapers/thumb/3d-shapes-abstract-lines-4k-nh.jpg);
+	-webkit-text-fill-color: transparent;
+	color:  #FFFFFF;
+	
+	font-size: 98px;
+	font-family:'Times New Roman', Times, serif;
+	animation: filling 3s ease forwards;
+  }

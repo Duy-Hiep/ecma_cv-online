@@ -32,7 +32,7 @@ export const AdminProjectsPage = () => {
         btn.addEventListener("click", function () {
             const id = this.dataset.id;
             // xóa trên server
-           deleteProject(id ).then(() => {
+           deleteProject(id).then(() => {
                 // xóa ở client : reRender
                 const newsProject = projects.filter((project) => project.id != id);
                 setProjects(newsProject);
@@ -45,7 +45,7 @@ export const AdminProjectsPage = () => {
   return `<div class="container mt-5">
     <h1>Quản lý dự án</h1>
 
-    <table class="table table-bordered">
+    <table class="table table-bordered text-center">
         <thead>
         <tr>
             <th>STT</th>
@@ -61,7 +61,7 @@ export const AdminProjectsPage = () => {
         
         </thead>
 
-        <tbody>
+        <tbody">
         ${projects.map((project, index) => {
           return `
           <tr>
@@ -70,7 +70,7 @@ export const AdminProjectsPage = () => {
             <td>${project.author}</td>
             <td>${project.date}</td>
             <td>${project.github}</td>
-            <td><img src="${project.gallery}" class="w-[200px]"></td>
+            <td><img src="${project.gallery}" class="w-[1900px] hover:scale-125"></td>
 
             <td width="150">
             <button data-id="${project.id}" class="btn btn-danger btn-remove">Xóa</button>

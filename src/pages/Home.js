@@ -26,9 +26,10 @@ const HomePage = () => {
             <section>
            
               <h1>
-              <span>Chào bạn</span>
-              ${Project.name} 
-            </h1>
+                <span>Chào bạn</span>
+                <div class="container-text bg-clip-text  py-[25px]">${Project.name}</div>
+              </h1>
+        
             <ul class="ds-numbervalulist">
               <li>
                 <strong class="tt">${Project.thongTin}</strong>
