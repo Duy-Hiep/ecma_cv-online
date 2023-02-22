@@ -6,8 +6,9 @@
       "gallery": [
         "https://res.cloudinary.com/duy-hiep/image/upload/v1676631928/ECMA/x0l9aomxdffkhgvytp9i.png"
       ],
+      "date": "18/02/2021",
+      "github": "https://github.com/Duy-Hiep",
       "id": 1
-      
     },
     {
       "name": "Dự án bán nội thất KOSI",
@@ -15,37 +16,36 @@
       "gallery": [
         "https://res.cloudinary.com/duy-hiep/image/upload/v1676633433/ECMA/wfymskaeni8aazaarm8p.png"
       ],
+      "date": "14/07/2022",
+      "github": "https://github.com/Duy-Hiep",
       "id": 2
-    
     },
     {
+      "id": 3,
       "name": "Dự án nhóm bán nội thất",
       "author": "Until recently, the prevailing view assumed lorem ipsum was born as a nonsense text. “It's not Latin, though it looks like it, and it actually says nothing,” Before & After magazine answered a curious reader, “Its ‘words’ loosely approximate the frequency with which letters occur in English, which is why at a glance it looks pretty real.”",
-      "gallery": [
-        "https://res.cloudinary.com/duy-hiep/image/upload/v1676633702/ECMA/okgx8msdifwk3rkoxwqp.png"
-      ],
-      "id": 3
-     
+      "date": "2021-10-16",
+      "github": "https://github.com/Duy-Hiep",
+      "gallery": "https://res.cloudinary.com/duy-hiep/image/upload/v1677090553/ECMA/bvvube32rxbaxgyoteat.png"
     }
   ],
-
-  
-
-  "user": [
-    {
-      "img": "https://res.cloudinary.com/duy-hiep/image/upload/v1654266228/asm-web-2022/11zon_cropped_kdh2in.png",
-      "thongTin": "Thông tin cơ bản",
-      "name": "Tôi là Nguyễn Duy Hiệp",
-      "hocVan": "FPT Polytechnic Hà Nội",
-      "number": "0374502364",
-      "email": "nhiep1410@gmail.com",
-      "address": "Thanh Xuân - Hà Nội"
-    }
-  ],
-  "about": [
-    {
-      "aboutMe1": "Hiện tại tôi là sinh viên kỳ 5 của trường cao đẳng FPT Polytechnic cơ sở Hà Nội. Tôi biết đến ngành thiết kế Website là vào năm 2021 khi đó mới thi trung học phổ thông xong và chưa có đinh hướng gì trong trương lai của bản thân, Sau một khoảng thời gian tìm hiểu và được mọi người đi trước tư vấn tôi đã biết đến thiết kế Website.",
-      "aboutMe2": "Tôi khá thích với những dòng code tuy nhiên nó cũng đem lại cho tôi những ngày stress. Nhưng tôi vẫn sẽ bước tiếp để trở thành một lập trình viên Frontend. "
-    }
+  "user": {
+    "thongTin": "Thông tin cơ bản",
+    "name": "I'm Duy Hiệp",
+    "hocVan": "FPT Polytechnic Hà Nội.",
+    "number": "0374502364",
+    "email": "nhiep1410@gmail.com.",
+    "address": "Thanh Xuân - Hà Nội.",
+    "img": "https://res.cloudinary.com/duy-hiep/image/upload/v1677090653/ECMA/f7ttydvsa8iaohoobccd.png"
+  },
+  "about": {
+    "aboutMe1": "Hiện tại tôi là sinh viên kỳ 5 của trường cao đẳng FPT Polytechnic cơ sở Hà Nội. Tôi biết đến ngành thiết kế Website là vào năm 2021 khi đó mới thi trung học phổ thông xong và chưa có đinh hướng gì trong trương lai của bản thân, Sau một khoảng thời gian tìm hiểu và được mọi người đi trước tư vấn tôi đã biết đến thiết kế Website."
+  },
+  "contact": {
+    "title": "Bạn có thể tìm kiếm địa chỉ của tôi ở Google Maps",
+    "address": "Ngõ 67 - Phùng Khoang - Thanh Xuân - Hà Nội"
+  },
+  "users": [
+    
   ]
 }

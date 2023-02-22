@@ -1,6 +1,10 @@
 import instance from "./config";
 
-const getUser = () => {
+const getUsers = () => {
     return instance.get("/user");
 };
-export{getUser}
+
+const updateUser = (user) => {
+    return instance.put(`/user`, user)
+};
+export{getUsers, updateUser}

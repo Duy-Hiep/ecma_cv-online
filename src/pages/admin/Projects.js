@@ -2,6 +2,7 @@
 import { deleteProject, getProjects } from "../../api/project";
 import { useEffect, useState } from "../../lib";
 import axios from "axios";
+import HeaderAdmin from "../../components/HeaderAdmin";
 
 export const AdminProjectsPage = () => {
 
@@ -42,7 +43,9 @@ export const AdminProjectsPage = () => {
   });
 
   
-  return `<div class="container mt-5">
+  return `
+  ${HeaderAdmin()}
+  <div class="container mt-5">
     <h1>Quản lý dự án</h1>
 
     <table class="table table-bordered text-center">
@@ -70,7 +73,7 @@ export const AdminProjectsPage = () => {
             <td>${project.author}</td>
             <td>${project.date}</td>
             <td>${project.github}</td>
-            <td><img src="${project.gallery}" class="w-[1900px] hover:scale-125"></td>
+            <td><img src="${project.gallery}" class=" hover:scale-125"></td>
 
             <td width="150">
             <button data-id="${project.id}" class="btn btn-danger btn-remove">Xóa</button>

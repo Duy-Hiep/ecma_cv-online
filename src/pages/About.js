@@ -7,23 +7,22 @@ import { getAbouts } from "../api/about";
 
 
 const AboutPage = () => {
-  const [About, setAbout] = useState([]);
+  const [About, setAbout] = useState({});
+  console.log(About);
   useEffect(() => {
     getAbouts()
-    .then(Project => setAbout(Project))
+    .then(data => setAbout(data))
   }, [])
     return `
         ${Header()}
         <div class="ds-about-section">
         <div class="container">
           <section>
-          ${About.map((Project) => {
-            return `
+          
             <h2 class="ds-heading">ABOUT ME</h2>
-            <p>${Project.aboutMe1}<br> 
-              ${Project.aboutMe2} </p>
-              `
-          })} 
+            <p>${About.aboutMe1}<br> 
+              ${About.aboutMe2} </p>
+            
             <div class="about font-bold text-[30px]">
 
               <h2 class="ds-heading">skill me</h2>

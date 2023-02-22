@@ -30,9 +30,12 @@ const AdminProjectEditPage = ({ProjectId}) => {
             e.preventDefault(); // disable reload
 
             let imgURL = "";
-            projectImg.files.length > 0
-             ? (imgURL = await upLoadFiles(projectImg.files))
-             : (imgURL = projectImg.accept);
+            if(projectImg.files.length > 0){
+                imgURL = await upLoadFiles(projectImg.files)
+            }
+            else{
+                imgURL = projectImg.accept
+            };
 
             try {
                 const formData = {

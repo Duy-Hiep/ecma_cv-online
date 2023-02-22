@@ -5,7 +5,7 @@ import { getContact } from "../api/contact";
 
 const ContactPage = () => {
 
-    const [Contact, setContact] = useState([]);
+    const [Contact, setContact] = useState({});
     useEffect(() => {
         getContact()
         .then(Project => setContact(Project))
@@ -15,12 +15,10 @@ const ContactPage = () => {
     ${Header()}
     <div class="contact">
         <div class=" ml-28 my-4">
-        ${Contact.map((Project) => {
-            return `
-            <h3>${Project.title}</h3>
-            Địa chỉ cụ thể: <a href="https://goo.gl/maps/EScG5uNZZz83d7tUA" target="_blank" class="border-2 p-1 rounded-xl no-underline hover:border-[#F26464]">${Project.address}</a>
-            `
-        })}
+        
+            <h3>${Contact.title}</h3>
+            Địa chỉ cụ thể: <a href="https://goo.gl/maps/EScG5uNZZz83d7tUA" target="_blank" class="border-2 p-1 rounded-xl no-underline hover:border-[#F26464]">${Contact.address}</a>
+        
             
         </div>
         
