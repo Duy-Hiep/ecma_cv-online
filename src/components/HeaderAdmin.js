@@ -13,10 +13,10 @@ const HeaderAdmin = () => {
     
       <!-- social -->
       <ul class="ds-social2 ">
-                 <a href="/admin/User" data-navigo class="text-decoration-none ml-2 text-[#151515d4] font-bold hover:text-[#F26464]">User</a>
-                 <a href="/admin/About" data-navigo class="text-decoration-none ml-2 text-[#151515d4] font-bold hover:text-[#F26464]">About</a>
-                 <a href="/admin/Projects" data-navigo class="text-decoration-none ml-2 text-[#151515d4] font-bold hover:text-[#F26464]">Project</a>
-                 <a href="/admin/Contact" data-navigo class="text-decoration-none ml-2 text-[#151515d4] font-bold hover:text-[#F26464]">Contact</a>
+                 <a href="#/admin/User" data-navigo class="text-decoration-none ml-2 text-[#151515d4] font-bold hover:text-[#F26464]">User</a>
+                 <a href="#/admin/About" data-navigo class="text-decoration-none ml-2 text-[#151515d4] font-bold hover:text-[#F26464]">About</a>
+                 <a href="#/admin/Projects" data-navigo class="text-decoration-none ml-2 text-[#151515d4] font-bold hover:text-[#F26464]">Project</a>
+                 <a href="#/admin/Contact" data-navigo class="text-decoration-none ml-2 text-[#151515d4] font-bold hover:text-[#F26464]">Contact</a>
               </ul>
       <!-- social -->
     </div>
